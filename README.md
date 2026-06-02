@@ -2,7 +2,7 @@
 
 O objetivo do projeto é desenvolver uma integração de reembolsos entre VExpenses e Protheus usando a linguagem ADVPL
 
-![Badge de Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)  <!-- Opcional -->
+![Badge de Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
 
 ## Tabela de Conteúdos
 - [Sobre](#sobre)
@@ -26,12 +26,12 @@ Ela acontece de em dois momentos:
 
   A integração não cria um relatório por título a pagar, ela cria um título a pagar por despesa.  
 
-  Em caso de erros, um gestor pode receber um e-mail automático com a descrição de cada erro.  
+  Em caso de erros, um gestor pode receber um e-mail automático com a descrição de cada situação.  
 
 ## Funcionalidades
 
 - Funcionalidade 1: Criação do contas a pagar automaticamente.  
-- Funcionalidade 2: Devolução do "Pago" no relatório, para que o usuário possa acompanhar todo o processo de reembolso pelo App VExpense.  
+- Funcionalidade 2: Devolução do "Pago" no relatório, para que o usuário possa acompanhar todo o processo de reembolso pelo App VExpenses.  
 
 ## Tecnologias Usadas
 
@@ -39,7 +39,7 @@ Ela acontece de em dois momentos:
 
 ## Como Usar
 
-É necessário criar váriaveis (entrando no Protheus com o usuário "Configurador) na aba de "Parâmetros". São eles:  
+É necessário criar váriaveis (entrando no Protheus com o usuário "Configurador) na aba de "Parâmetros". São elas:  
   1 - MV_TOKEN - Token VExpenses;  
   2 - MV_URIVEX - URI API VExpenses;  
   3 - MV_SERVER - Server do SMTP para envio de e-mails;  
